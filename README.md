@@ -39,7 +39,7 @@ The plugin isn't in KiCad's official repository, so add this one to the Plugin a
    https://raw.githubusercontent.com/xx0x/kicad-simple-step/main/repository.json
    ```
 
-4. Click **Save**, then select **kicad-simple-step by Vaclav Mach** in the repository list.
+4. Click **Save**, then select **Simple STEP repository** in the repository list.
 5. On the **Plugins** tab, find **Simple STEP**, click **Install**, then **Apply Pending Changes**.
 
 Updates then show up in the Plugin and Content Manager like any other package.
