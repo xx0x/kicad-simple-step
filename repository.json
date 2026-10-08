@@ -1,6 +1,6 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
-    "name": "kicad-simple-step by Vaclav Mach",
+    "name": "Simple STEP repository",
     "maintainer": {
         "name": "Vaclav Mach",
         "contact": {
