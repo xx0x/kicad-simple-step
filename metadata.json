@@ -1,0 +1,39 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Simple STEP",
+    "description": "Export the board as a STEP optimized to be loadable by CAD software like Fusion (simplified STEP + PNGs).",
+    "description_full": "Adds a button to the PCB editor that saves the board and writes three files next to it:\n\n- <board>-simple.step: the board body and component models only, without copper, silkscreen or soldermask geometry, centred on the board outline. Much smaller and faster to work with in CAD.\n- <board>-simple-top.png and <board>-simple-bottom.png: high-resolution pictures of each side (copper, soldermask, finish and silkscreen in the board's stackup colours), cropped exactly to the board outline, with transparent holes, to put back on the model as images.\n\nRequires the KiCad API to be enabled in Preferences > Plugins.",
+    "identifier": "com.github.xx0x.kicad-simple-step",
+    "type": "plugin",
+    "author": {
+        "name": "Vaclav Mach",
+        "contact": {
+            "github": "https://github.com/xx0x"
+        }
+    },
+    "maintainer": {
+        "name": "Vaclav Mach",
+        "contact": {
+            "github": "https://github.com/xx0x"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/xx0x/kicad-simple-step"
+    },
+    "tags": [
+        "step",
+        "export",
+        "model-3d",
+        "mcad",
+        "enclosure"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "10.0",
+            "runtime": "ipc"
+        }
+    ]
+}

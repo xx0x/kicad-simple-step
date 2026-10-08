@@ -1,0 +1,22 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
+    "name": "kicad-simple-step by Vaclav Mach",
+    "maintainer": {
+        "name": "Vaclav Mach",
+        "contact": {
+            "github": "https://github.com/xx0x"
+        }
+    },
+    "packages": {
+        "url": "https://raw.githubusercontent.com/xx0x/kicad-simple-step/main/packages.json",
+        "sha256": "9dd9944dc2e406e3eae4a6992c2b47eb4a94decfaf9c7b9c71ad3fe806730c51",
+        "update_timestamp": 1791455508,
+        "update_time_utc": "2026-10-08 10:31:48"
+    },
+    "resources": {
+        "url": "https://raw.githubusercontent.com/xx0x/kicad-simple-step/main/resources.zip",
+        "sha256": "c6fde1c1cb4fbf5fb628d27a4c4862dab630eeaeb3df43f4ca71c77f2bfbdd9b",
+        "update_timestamp": 1791455508,
+        "update_time_utc": "2026-10-08 10:31:48"
+    }
+}

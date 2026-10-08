@@ -1,0 +1,6 @@
+kicad-python>=0.4
+# On Linux the plugin's venv also sees the system site-packages; keep it from settling for an old
+# system protobuf that kicad-python cannot use.
+protobuf>=5.29,<6
+pillow>=9.1
+pypdfium2>=4

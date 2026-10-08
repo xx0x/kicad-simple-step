@@ -1,0 +1,30 @@
+{
+    "$schema": "https://go.kicad.org/api/schemas/v1",
+    "identifier": "com.github.xx0x.kicad-simple-step",
+    "name": "Simple STEP",
+    "description": "Export the board as a light STEP (board and parts, no copper or silkscreen geometry) plus a picture of each side",
+    "runtime": {
+        "type": "python",
+        "min_version": "3.9"
+    },
+    "actions": [
+        {
+            "identifier": "export",
+            "name": "Simple STEP export",
+            "description": "Save the board, then write <board>-simple.step, <board>-simple-top.png and <board>-simple-bottom.png next to it",
+            "show-button": true,
+            "scopes": [
+                "pcb"
+            ],
+            "entrypoint": "simple_step.py",
+            "icons-light": [
+                "icons/icon-light.png",
+                "icons/icon-light@2x.png"
+            ],
+            "icons-dark": [
+                "icons/icon-dark.png",
+                "icons/icon-dark@2x.png"
+            ]
+        }
+    ]
+}
